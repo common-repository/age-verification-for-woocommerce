@@ -1,0 +1,30 @@
+.aweos-grouped-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    max-width: 600px;;
+}
+
+.aweos-grouped-buttons .item {
+    padding: 20px;
+    background-size: cover;
+    background-color: #333;
+    height: 100px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px 0px #444;
+    transition: 0.1s;
+    border-radius: 3px;
+}
+
+.aweos-grouped-buttons .item:hover {
+    transform: scale(1.03);
+}
+
+.aweos-grouped-buttons .item:active {
+    transform: scale(0.95);
+    filter: brightness(0.9);
+}
+
+.aweos-grouped-buttons-item p {
+    text-align: center;
+}

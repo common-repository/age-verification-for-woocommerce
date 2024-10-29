@@ -1,0 +1,55 @@
+.aweos-image-actions {
+    display: inline-flex;
+    flex-direction: column;
+    vertical-align: top;
+}
+
+.aweos-image-picker-control, .aweos-image-actions .remove, .aweos-image-actions .edit {
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 0 #ccc;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    user-select: none;
+    display: inline-block;
+}
+
+.aweos-image-actions .remove, .aweos-image-actions .edit {
+    margin: 0 0 5px 5px;
+    padding: 2px 5px;
+    color: #444;
+    vertical-align: top;
+}
+
+.aweos-image-actions .remove:before, .aweos-image-actions .edit:before {
+    font-family: dashicons;
+    font-size: 21px;
+    content: "\f158";
+}
+
+.aweos-image-actions .edit:before {
+    content: "\f464";
+}
+
+.aweos-image-picker-control.filled {
+    padding: 5px;
+}
+
+.aweos-image-picker-control.filled p {
+    margin: 0;
+    text-align: center;
+}
+
+.aweos-image-picker-control:active {
+    box-shadow: none;
+    background-color: #eee;
+}
+
+.aweos-image-picker-control img {
+    object-fit: cover;
+    width: 190px;
+    height: 150px;
+    margin-bottom: -3px;
+}

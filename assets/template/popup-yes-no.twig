@@ -1,0 +1,76 @@
+{# add/remove class visible to show/hide the overlay #}
+<div class="{{ prefix }}-overlay popup-type-yes-no visible shadow-{{ submit_button_has_shadow }} text-align-{{ text_align }} submit-rounded-{{ submit_button_is_rounded }} submit-hover-{{ submit_button_has_hover }} frame-is-rounded-{{ frame_is_rounded }} frame-has-shadow-{{ frame_shadow }} has-picture-{{ has_picture }} has-logo-{{ has_logo }} legal-space-between-{{ legal_space_between }} legal-space-right-{{ legal_space_right }} legal-center-{{ legal_center }}">
+    <div class="popup">
+        <div class="popup-controls">
+
+            {% if lock_is_active == "yes" or back_button_is_active == "yes" -%}
+            <p class="top icons">
+                {% if back_button_is_active == "yes" -%}
+                <img onclick="history.back()" src="{{ root_url }}assets/img/back.png" class="backarrow {{ lock_class }}" />
+                {% endif -%}
+
+                {% if lock_is_active == "yes" -%}
+
+                {% if lock_position == 0 -%}
+                {% set lock_class = "left" -%}
+                {% endif -%}
+                {% if lock_position == 1 -%}
+                {% set lock_class = "middle" -%}
+                {% endif -%}
+
+                <img src="{{ root_url }}assets/img/lock.png" class="lock {{ lock_class }}" />
+                {% endif -%}
+            </p>
+            {% endif %}
+
+
+            {% if has_logo == 'yes' %}
+            <div class="logo">
+                <img src="{{ popup_logo.url|raw }}" alt="{{ popup_logo.alt|raw }}" title="{{ popup_logo.title|raw }}" width="100" height="100">
+            </div>
+            {% endif %}
+
+            {% if not required -%}
+            <a class="{{ prefix }}-close" href="#">&times;</a>
+            {% endif -%}
+            <p class="{{ prefix }}-title">{{ title|raw }}</p>
+            <div class="{{ prefix }}-content">
+                <p class='{{ prefix }}-subtitle'>
+                    {{ popup_subtitle }}
+                <p>
+
+                <!-- Popup content -->
+                <script>
+                    window.awarCookieDuration = {{ cookie_duration }};
+                    window.awarNotOldEnoughText = "{{ not_old_enough_text }}";
+                </script>
+
+                <div class="{{ prefix }}-popup nav">
+                    <div class="{{ prefix }}-yesno">
+                        <button class="yes awar-picker-submit awar-btn">{{ custom_texts_simple_yes }}</button>
+                        <button class="no awar-picker-submit awar-btn">{{ custom_texts_simple_no }}</button>
+                        <button class="home awar-picker-submit awar-btn">{{ custom_texts_simple_back }}</button>
+                    </div>
+
+                    <!-- legal info -->
+                    {%- if privacy_polecy_active == 'yes' or imprint_active == 'yes' -%}
+                    <div class="legal-info">
+                        {%- if privacy_polecy_active == 'yes' -%}
+                        <a href="{{ privacy_url }}">{{ privacy_text }}</a>
+                        {%- endif -%}
+
+                        {%- if imprint_active == 'yes' -%}
+                        <a href="{{ imprint_url }}">{{ imprint_text }}</a>
+                        {%- endif -%}
+                    </div>
+                    {%- endif -%}
+                </div>
+            </div>
+        </div>
+        {% if has_picture == "yes" %}
+        <div class="picture">
+            <img src="{{ popup_picture.url|raw }}" alt="{{ popup_picture.alt|raw }}" title="{{ popup_picture.title|raw }}">
+        </div>
+        {% endif %}
+    </div>
+</div>

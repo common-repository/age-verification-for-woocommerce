@@ -1,0 +1,30 @@
+<!-- birthdaypicker -->
+    <div class="{{ prefix }}-picker">
+        <select name="day" class="select-birth day">
+            <option disabled selected>{{ picker_day }}</option>
+            {% for i in 1..9 -%}
+            <option value="{{ i }}">0{{ i }}</option>
+            {% endfor -%}
+            {% for i in 10..31 -%}
+            <option value="{{ i }}">{{ i }}</option>
+            {% endfor -%}
+        </select>
+
+        <select name="month" class="select-birth month">
+            <option disabled selected>{{ picker_month }}</option>
+            {% for i in 1..9 -%}
+            <option value="{{ i }}">0{{ i }}</option>
+            {% endfor -%}
+            {% for i in 10..12 -%}
+            <option value="{{ i }}">{{ i }}</option>
+            {% endfor -%}
+        </select>
+
+        <select name="year" class="select-birth year">
+            <option disabled selected>{{ picker_year }}</option>
+            <option value="{{ from_year }}">{{ from_year }} {{ picker_early }}</option>
+            {% for i in from_year .. to_year -%}
+            <option value="{{ i }}">{{ i }}</option>
+            {% endfor -%}
+        </select>
+    </div>

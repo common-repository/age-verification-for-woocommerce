@@ -1,0 +1,23 @@
+<div class="{{ prefix }}-popup nav">
+
+    {{ birthdaydatepicker | raw }}
+    <p>{{ picker_confirm_description }}</p>
+
+    <!-- submit button -->
+    <button class="{{ prefix }}-btn blue {{ prefix }}-picker-submit">
+        {{ picker_button }}
+    </button>
+
+    <!-- legal info -->
+    {%- if privacy_polecy_active == 'yes' or imprint_active == 'yes' -%}
+    <div class="legal-info">
+        {%- if privacy_polecy_active == 'yes' -%}
+        <a href="{{ privacy_url }}">{{ privacy_text }}</a>
+        {%- endif -%}
+
+        {%- if imprint_active == 'yes' -%}
+        <a href="{{ imprint_url }}">{{ imprint_text }}</a>
+        {%- endif -%}
+    </div>
+    {%- endif -%}
+</div>
