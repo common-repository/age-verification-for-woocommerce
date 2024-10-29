@@ -1,0 +1,362 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Age verification/restriction for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-06-17 09:18+0000\n"
+"PO-Revision-Date: 2019-06-17 09:23+0000\n"
+"Last-Translator: root <dev-email@flywheel.local>\n"
+"Language-Team: German\n"
+"Language: de_DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.2.1"
+
+#: plugin.php:33
+msgid "Please update WordPress to use this plugin"
+msgstr "Bitte aktualisieren Sie WordPress bevor Sie dieses Plugin verwenden "
+
+#: plugin.php:37
+msgid "Back to the plugins dashboard"
+msgstr "Zurück zu den Plugins"
+
+#: plugin.php:39
+msgid ""
+"Sorry, but Age verification requires WooCommerce to be installed and active."
+msgstr "'Age verification' benötigt WooCommerce "
+
+#: plugin.php:48
+msgid "Help"
+msgstr "Hilfe"
+
+#: plugin.php:63
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: twig-loader.php:31
+msgctxt "Front-End age popup"
+msgid "Day"
+msgstr "Tag"
+
+#: twig-loader.php:32
+msgctxt "Front-End age popup"
+msgid "Month"
+msgstr "Monat"
+
+#: twig-loader.php:33
+msgctxt "Front-End age popup"
+msgid "Year"
+msgstr "Jahr"
+
+#: twig-loader.php:34
+msgctxt "Front-End age popup"
+msgid "or earier"
+msgstr "oder früher"
+
+#: twig-loader.php:61
+msgctxt "Front-End datepicker"
+msgid "Confirm my age"
+msgstr "Alter bestätigen"
+
+#: twig-loader.php:62
+msgctxt "Front-End datepicker"
+msgid ""
+"I hereby declare that the information made is correct and I agree that this "
+"data will be collected electronically in order to confirm my age."
+msgstr ""
+"Hiermit bestätige ich die Vollständigkeit und Richtigkeit der oben gewählten "
+"Angaben. Die Daten werden nur zur Altersverifizierung erhoben."
+
+#: twig-loader.php:104
+msgctxt "Front-End age popup"
+msgid "Enter your age"
+msgstr "Geburtsdatum eingeben"
+
+#: twig-loader.php:105
+msgctxt "Front-End age popup"
+msgid "Please confirm your age."
+msgstr "Bitte bestätigen Sie Ihre Volljährigkeit."
+
+#: twig-loader.php:106
+msgctxt "Front-End age popup"
+msgid "Confirm your age"
+msgstr "Volljährigkeit bestätigen"
+
+#: admin-menu.php:12
+msgctxt "Admin menu tab title"
+msgid "Age Verification"
+msgstr "Altersverifizierung"
+
+#: admin-menu.php:27
+msgctxt "Admin menu section headline"
+msgid "General"
+msgstr "Allgemein"
+
+#: admin-menu.php:28
+msgctxt "Admin menu section headline"
+msgid "Privacy"
+msgstr "Datenschutz"
+
+#: admin-menu.php:29
+msgctxt "Admin menu section headline"
+msgid "Custom Text"
+msgstr "Eigene Texte"
+
+#: admin-menu.php:78 admin-menu.php:144
+msgctxt "Admin menu headline"
+msgid "Privacy"
+msgstr "Datenschutz"
+
+#: admin-menu.php:81
+msgctxt "Admin menu label"
+msgid ""
+"If you are looking to change the texts of your pop-up, you are at the right "
+"place, leave fields blank if you want the default text."
+msgstr ""
+"Hier können Sie die texte im Pop-Up Fenster anpassen. Bitte lassen Sie die "
+"Felder leer wenn "
+
+#: admin-menu.php:90
+msgctxt "Admin menu label"
+msgid "Title"
+msgstr "Pop-Up Titel"
+
+#: admin-menu.php:95
+msgctxt "Admin menu label"
+msgid "Subtitle"
+msgstr "Pop-Up Untertitel"
+
+#: admin-menu.php:100
+msgctxt "Admin menu label"
+msgid "Datepicker title"
+msgstr "Date-Picker Überschrift"
+
+#: admin-menu.php:105
+msgctxt "Admin menu label"
+msgid "Datepicker day"
+msgstr "Date-Picker \"Tag\""
+
+#: admin-menu.php:110
+msgctxt "Admin menu label"
+msgid "Datepicker month"
+msgstr "Date-Picker \"Monat\""
+
+#: admin-menu.php:115
+msgctxt "Admin menu label"
+msgid "Datepicker year"
+msgstr "Date-Picker \"Jahr\""
+
+#: admin-menu.php:120
+msgctxt "Admin menu label"
+msgid "Text for \"or earlyer\""
+msgstr "Text statt \"oder früher\""
+
+#: admin-menu.php:125
+msgctxt "Admin menu label"
+msgid "Checkbox description"
+msgstr "Verifizierungs-Beschreibung neben der CheckBox"
+
+#: admin-menu.php:130
+msgctxt "Admin menu label"
+msgid "Button text"
+msgstr "Text von der Submit-Schaltfläche"
+
+#: admin-menu.php:151
+msgctxt "admin menu description for the privacy policy"
+msgid "Activate"
+msgstr "Aktiv"
+
+#: admin-menu.php:152
+msgctxt "admin menu description for the checkbox"
+msgid "Privacy Policy"
+msgstr "Datenschutzerklärung"
+
+#: admin-menu.php:153
+msgctxt "Admin menu description on: imprint is active"
+msgid ""
+"Display a small privacy link under the \"confirm\" button inside your modal "
+"popup."
+msgstr ""
+"Ein Verweis auf die Datenschutzrichtlinien am Ende das Pop-Ups anzeigen."
+
+#: admin-menu.php:162
+msgctxt "admin menu description for the privacy policy"
+msgid "Select a page for your privacy policy."
+msgstr "Wählen sie Ihre Datenschutzerklärung."
+
+#: admin-menu.php:170
+#, php-format
+msgctxt "Admin menu label"
+msgid "%s The privacy policy %s text %s inside your link."
+msgstr "%s %s Datenschutztext %s für den Link."
+
+#: admin-menu.php:172
+msgctxt "default value for an admin option"
+msgid "Privacy"
+msgstr "Datenschutzerklärung"
+
+#: admin-menu.php:177
+msgctxt "admin menu description for the Imprint"
+msgid "Activate"
+msgstr "Aktiv"
+
+#: admin-menu.php:178
+msgctxt "admin menu description for the checkbox"
+msgid "Imprint"
+msgstr "Impressum"
+
+#: admin-menu.php:179
+msgctxt "Admin menu description on: imprint is active"
+msgid ""
+"Display a small imprint link under the \"confirm\" button inside your modal "
+"popup."
+msgstr "Ein Verweis auf das Impressum am Ende das Pop-Ups anzeigen."
+
+#: admin-menu.php:188
+msgctxt "admin menu description for the imprint"
+msgid "Select a page for your imprint."
+msgstr "Impressum Auswählen"
+
+#: admin-menu.php:196
+#, php-format
+msgctxt "Admin menu label"
+msgid "%s The imprint %s text %s inside your link."
+msgstr "%s %s Impressumstext %s für den Link."
+
+#: admin-menu.php:198
+msgctxt "default value for an admin option"
+msgid "Imprint"
+msgstr "Impressum"
+
+#: admin-menu.php:211
+msgctxt "Admin menu headline"
+msgid "Behavior"
+msgstr "Funktion"
+
+#: admin-menu.php:219
+msgid "Minimum age"
+msgstr "Mindestalter"
+
+#: admin-menu.php:221
+#, php-format
+msgctxt "Admin menu label"
+msgid "%s The %s minimum age %s for a user to pass the verification."
+msgstr "%s Das %s Mindestalter %s um die Verifiziert zu werden"
+
+#: admin-menu.php:229
+msgctxt "Admin menu headline"
+msgid "Appearance"
+msgstr "Darstellung"
+
+#: admin-menu.php:239
+msgctxt "Admin menu sub-headline"
+msgid "Submit-Button"
+msgstr "Schaltfläche zum Bestätigen"
+
+#: admin-menu.php:240
+#, php-format
+msgctxt "Admin menu label"
+msgid "The %s background %s color for your button (if highlighted)."
+msgstr "Die %s Hintergrundfarbe %s für den Button (wenn aktiv)."
+
+#: admin-menu.php:247
+#, php-format
+msgctxt "Admin menu label"
+msgid "The %s shadow %s color for your button."
+msgstr "Die %s Schattenfarbe %s für den Button."
+
+#: admin-menu.php:253
+#, php-format
+msgctxt "Admin menu label"
+msgid "%s The %s text %s color for your button."
+msgstr "%s Die %s Text %s Farbe von der Schaltfläche."
+
+#: admin-menu.php:262
+msgctxt "Admin menu headline"
+msgid "Product categories"
+msgstr "Produktkategorie"
+
+#: admin-menu.php:274
+msgctxt "admin menu \"i\" (info) popup for the category multiselect"
+msgid ""
+"The categories will appear if you click on products from your admin side "
+"menu,\n"
+"                                you should select every category you want to "
+"lock out for specific user groups."
+msgstr ""
+"Wählen sie jede Kategorie aus, auf der das Popup erscheinen soll. Sie die "
+"Shop Kategorie im WooCommerce Menü"
+
+#: admin-menu.php:286
+msgctxt "Admin menu headline"
+msgid "Navigation"
+msgstr "Navigation"
+
+#: admin-menu.php:294
+msgctxt "admin menu description for the Imprint"
+msgid "Activate a back-button"
+msgstr "Zurück-Button hinzufügen"
+
+#: admin-menu.php:295
+msgctxt "admin menu description for the checkbox"
+msgid "Back-Button"
+msgstr "Zurück-Button"
+
+#: admin-menu.php:296
+msgctxt "Admin menu description"
+msgid ""
+"Show a tiny back button on top of your popup, visitors can leave the site if "
+"desired."
+msgstr ""
+"Fügen Sie ein kleinen Zurück-Pfeil hinzu, damit Besucher die Seite einfacher "
+"verlassen können."
+
+#: admin-menu.php:306
+msgctxt "admin menu description for the Imprint"
+msgid "Activate a lock icon"
+msgstr "Schloss-Symbol hinzufügen"
+
+#: admin-menu.php:307
+msgctxt "admin menu description for the checkbox"
+msgid "Lock-Icon"
+msgstr "Schloss-Symbol"
+
+#: admin-menu.php:308
+msgctxt "Admin menu description"
+msgid "Show a tiny lock icon on top of your popup."
+msgstr "Fügen Sie ein kleines Schloss-Symbol hinzu."
+
+#: admin-menu.php:318
+msgctxt "Admin menu label"
+msgid "Position of your lock icon."
+msgstr "Position des Schloss-Symbols."
+
+#. Name of the plugin
+msgid "Age Verification System for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Restrict WooCommerce products for a certain age group using a beautiful and "
+"small popup window, after completing the setup and selecting your categories,"
+" visitors need to type in their date of birth in a compact popup window, if "
+"they pass, we store a browser-cookie to remember it next time. You will be "
+"able to control the product access for certain age groups precisely. Control "
+"everything with our highly customizable, easy and advanced admin backend."
+msgstr ""
+"Verhindert mithilfe einer Verifizierung den Zugang von minderjährigen "
+"Besuchern auf ihren Shop. Es können eine- oder mehrere WooCommerce "
+"Produktkategorien ausgewählt werden. Es erscheint ein kleines Pop-Up Fenster,"
+" die Besucher werden aufgefordert ihr Geburtsdatum einzugeben und die "
+"Bestätigung wird mit einem Browser-Cookie gespeichert. Verwenden Sie unseren "
+"Adminbereich um die Cookie-dauer und Pop-Up Darstellung anzupassen."
+
+#. Author of the plugin
+msgid "AWEOS GmbH"
+msgstr "AWEOS GmbH"
+
+#. Author URI of the plugin
+msgid "https://aweos.de"
+msgstr "https://aweos.de"

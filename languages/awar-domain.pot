@@ -1,0 +1,616 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Age verification/restriction for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-07 07:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.2; wp-5.2"
+
+#: plugin.php:33
+msgid "Please update WordPress to use this plugin"
+msgstr ""
+
+#: plugin.php:37
+msgid "Back to the plugins dashboard"
+msgstr ""
+
+#: plugin.php:39
+msgid ""
+"Sorry, but Age verification requires WooCommerce to be installed and active."
+msgstr ""
+
+#: plugin.php:48
+msgid "Help"
+msgstr ""
+
+#: plugin.php:63
+msgid "Settings"
+msgstr ""
+
+#: twig-loader.php:31
+msgctxt "Front-End age popup"
+msgid "Day"
+msgstr ""
+
+#: twig-loader.php:32
+msgctxt "Front-End age popup"
+msgid "Month"
+msgstr ""
+
+#: twig-loader.php:33
+msgctxt "Front-End age popup"
+msgid "Year"
+msgstr ""
+
+#: twig-loader.php:34
+msgctxt "Front-End age popup"
+msgid "or earier"
+msgstr ""
+
+#: twig-loader.php:61
+msgctxt "Front-End datepicker"
+msgid "Confirm my age"
+msgstr ""
+
+#: twig-loader.php:62
+msgctxt "Front-End datepicker"
+msgid ""
+"I hereby declare that the information made is correct and I agree that this "
+"data will be collected electronically in order to confirm my age."
+msgstr ""
+
+#: twig-loader.php:87
+msgctxt "Front-End age popup"
+msgid "Please confirm your age."
+msgstr ""
+
+#: twig-loader.php:88
+msgctxt "Text for underaged user"
+msgid "You are not old enough to use this service/product."
+msgstr ""
+
+#: twig-loader.php:89
+msgctxt "Front-End age popup"
+msgid "Enter your age"
+msgstr ""
+
+#: twig-loader.php:90
+msgctxt "Front-End age popup"
+msgid "Confirm your age"
+msgstr ""
+
+#: wc-settings-class.php:6
+msgctxt "Admin menu tab title"
+msgid "Age Verification"
+msgstr ""
+
+#: wc-settings-class.php:16
+msgctxt "Admin menu section headline"
+msgid "General"
+msgstr ""
+
+#: wc-settings-class.php:17
+msgctxt "Admin menu section headline"
+msgid "Style"
+msgstr ""
+
+#: wc-settings-class.php:18
+msgctxt "Admin menu section headline"
+msgid "Privacy"
+msgstr ""
+
+#: wc-settings-class.php:19
+msgctxt "Admin menu section headline"
+msgid "Custom Text"
+msgstr ""
+
+#: wc-settings-class.php:104 wc-settings-class.php:220
+msgctxt "Admin menu headline"
+msgid "Privacy"
+msgstr ""
+
+#: wc-settings-class.php:108
+msgctxt "Admin menu label"
+msgid ""
+"If you are looking to change the texts of your pop-up, you are at the right "
+"place. Leave fields blank if you want the default text."
+msgstr ""
+
+#: wc-settings-class.php:117
+msgctxt "Admin menu label"
+msgid "Popup/Main Title"
+msgstr ""
+
+#: wc-settings-class.php:123
+msgctxt "Admin menu label"
+msgid "Popup Subtitle"
+msgstr ""
+
+#: wc-settings-class.php:129
+msgctxt "Admin menu label"
+msgid "Datepicker title"
+msgstr ""
+
+#: wc-settings-class.php:135
+msgctxt "Admin menu label"
+msgid "Checkbox description"
+msgstr ""
+
+#: wc-settings-class.php:141
+msgctxt "Admin menu label"
+msgid "Text for an underaged visitor"
+msgstr ""
+
+#: wc-settings-class.php:147
+msgctxt "Admin menu label"
+msgid "Button text"
+msgstr ""
+
+#: wc-settings-class.php:155
+msgctxt "Admin menu headline"
+msgid "Birthday Datepicker"
+msgstr ""
+
+#: wc-settings-class.php:162
+msgctxt "Admin menu label"
+msgid "Datepicker day"
+msgstr ""
+
+#: wc-settings-class.php:168
+msgctxt "Admin menu label"
+msgid "Datepicker month"
+msgstr ""
+
+#: wc-settings-class.php:174
+msgctxt "Admin menu label"
+msgid "Datepicker year"
+msgstr ""
+
+#: wc-settings-class.php:180
+msgctxt "Admin menu label"
+msgid "Text for \"or earlyer\""
+msgstr ""
+
+#: wc-settings-class.php:188
+msgctxt "Admin menu headline"
+msgid "Yes/No Question"
+msgstr ""
+
+#: wc-settings-class.php:191
+msgctxt "Admin menu label"
+msgid "If you need to change the Yes/No button texts, you can do this here."
+msgstr ""
+
+#: wc-settings-class.php:200
+msgctxt "Admin menu label"
+msgid "Yes button text"
+msgstr ""
+
+#: wc-settings-class.php:206
+msgctxt "Admin menu label"
+msgid "No button text"
+msgstr ""
+
+#: wc-settings-class.php:229
+msgctxt "admin menu description for the privacy policy"
+msgid "Activate"
+msgstr ""
+
+#: wc-settings-class.php:230
+msgctxt "admin menu description for the checkbox"
+msgid "Privacy Policy"
+msgstr ""
+
+#: wc-settings-class.php:231
+msgctxt "Admin menu description on: terms and conditions is active"
+msgid ""
+"Display a small privacy link under the \"confirm\" button inside your modal "
+"popup."
+msgstr ""
+
+#: wc-settings-class.php:240
+msgctxt "admin menu description for the privacy policy"
+msgid "Select a page for your privacy policy."
+msgstr ""
+
+#: wc-settings-class.php:249
+#, php-format
+msgctxt "Admin menu label"
+msgid "%s The privacy policy %s text %s inside your link."
+msgstr ""
+
+#: wc-settings-class.php:251
+msgctxt "default value for an admin option"
+msgid "Privacy"
+msgstr ""
+
+#: wc-settings-class.php:257
+msgctxt "admin menu description for the terms and conditions"
+msgid "Activate"
+msgstr ""
+
+#: wc-settings-class.php:258
+msgctxt "admin menu description for the checkbox"
+msgid "Terms and Conditions"
+msgstr ""
+
+#: wc-settings-class.php:259
+msgctxt "Admin menu description on: Terms and conditions is active"
+msgid ""
+"Display a small \"terms and conditions\" link under the \"confirm\" button "
+"inside your modal popup."
+msgstr ""
+
+#: wc-settings-class.php:268
+msgctxt "admin menu description for the terms and conditions"
+msgid "Select a page for your terms and conditions."
+msgstr ""
+
+#: wc-settings-class.php:277
+#, php-format
+msgctxt "Admin menu label"
+msgid "%s The terms and conditions %s text %s inside your link."
+msgstr ""
+
+#: wc-settings-class.php:279
+msgctxt "default value for an admin option"
+msgid "Terms and Conditions"
+msgstr ""
+
+#: wc-settings-class.php:293
+msgctxt "Admin menu headline"
+msgid "Themes"
+msgstr ""
+
+#: wc-settings-class.php:294
+#, php-format
+msgctxt "Admin menu label"
+msgid ""
+"%s Choose a %s Preset/Configuration%s. We will automatically change the "
+"styling options according to your choice. You can decide between a birthday-"
+"datepicker and a simple yes/no question and a dark/bright mode"
+msgstr ""
+
+#: wc-settings-class.php:308
+msgctxt "Admin menu headline"
+msgid "Behavior"
+msgstr ""
+
+#: wc-settings-class.php:315
+msgctxt "Admin menu headline"
+msgid "Verification Method"
+msgstr ""
+
+#: wc-settings-class.php:318
+#, php-format
+msgctxt "Admin menu label"
+msgid ""
+"%s Choose the %s Verification Method%s. This option will change the behavior "
+"of your popup. %sChoose between a simple Yes/No popup or a birthday "
+"datepicker."
+msgstr ""
+
+#: wc-settings-class.php:327
+msgctxt "Admin menu headline"
+msgid "Submit Button"
+msgstr ""
+
+#: wc-settings-class.php:334
+msgctxt "Admin menu headline"
+msgid "Button Appearance"
+msgstr ""
+
+#: wc-settings-class.php:337
+msgctxt "admin menu label"
+msgid "Draw a shadow under the submit button."
+msgstr ""
+
+#: wc-settings-class.php:343
+msgctxt "admin menu label"
+msgid "Curve/Round the corners of your submit button."
+msgstr ""
+
+#: wc-settings-class.php:349
+msgctxt "admin menu label"
+msgid ""
+"Change the color of your submit button on hover. Shown if a visitor rests "
+"his mouse on top."
+msgstr ""
+
+#: wc-settings-class.php:356
+msgctxt "Admin menu sub-headline"
+msgid "Button Color"
+msgstr ""
+
+#: wc-settings-class.php:357
+#, php-format
+msgctxt "Admin menu label"
+msgid "The %s background %s color for your button (if active)."
+msgstr ""
+
+#: wc-settings-class.php:364
+#, php-format
+msgctxt "Admin menu label"
+msgid "The %s shadow %s color for your button."
+msgstr ""
+
+#: wc-settings-class.php:371
+#, php-format
+msgctxt "Admin menu label"
+msgid ""
+"The %s hover %s color for your button. Shown on resting your mouse on the "
+"button."
+msgstr ""
+
+#: wc-settings-class.php:377
+#, php-format
+msgctxt "Admin menu label"
+msgid ""
+"%s The %s text %s color for your button. Make sure that your text is easy to "
+"read."
+msgstr ""
+
+#: wc-settings-class.php:386
+msgctxt "Admin menu headline"
+msgid "Frame"
+msgstr ""
+
+#: wc-settings-class.php:393
+msgctxt "Admin menu option"
+msgid "Background Color"
+msgstr ""
+
+#: wc-settings-class.php:395 wc-settings-class.php:453
+#, php-format
+msgctxt "Admin menu label"
+msgid ""
+"The %s background %s color for the popup itself. Make sure you text is easy "
+"to read."
+msgstr ""
+
+#: wc-settings-class.php:401
+msgctxt "Admin menu option"
+msgid "Frame is rounded."
+msgstr ""
+
+#: wc-settings-class.php:403
+msgctxt "Admin menu description for a checkbox"
+msgid "Round the corners from you popup window for a smooth appearance."
+msgstr ""
+
+#: wc-settings-class.php:412
+msgctxt "Admin menu option"
+msgid "Frame has shadow."
+msgstr ""
+
+#: wc-settings-class.php:414
+msgctxt "Admin menu description for a checkbox"
+msgid "Add a box shadow to your popup and emphasise/raise the window."
+msgstr ""
+
+#: wc-settings-class.php:425
+msgctxt "Admin menu headline"
+msgid "Fonts"
+msgstr ""
+
+#: wc-settings-class.php:434
+#, php-format
+msgctxt "Admin menu label"
+msgid ""
+"%s The %s text align %s for your written content. %s Its recommendet to use "
+"a \"left\" text align on bigger texts. %s The checkbox text will always stay "
+"left aligned."
+msgstr ""
+
+#: wc-settings-class.php:436
+msgctxt "admin menu description"
+msgid "Text Align"
+msgstr ""
+
+#: wc-settings-class.php:443
+msgctxt "Admin menu sub-headline"
+msgid "Headline Size"
+msgstr ""
+
+#: wc-settings-class.php:446
+#, php-format
+msgctxt "Admin menu label"
+msgid "%s The size of your headline."
+msgstr ""
+
+#: wc-settings-class.php:451
+msgctxt "Admin menu option"
+msgid "Legal/Bottom Links Color"
+msgstr ""
+
+#: wc-settings-class.php:459
+msgctxt "Admin menu option"
+msgid "Color of Headlines"
+msgstr ""
+
+#: wc-settings-class.php:461
+#, php-format
+msgctxt "Admin menu label"
+msgid ""
+"The %s text %s color for your headlines inside the popup. Make sure you text "
+"is easy to read."
+msgstr ""
+
+#: wc-settings-class.php:467
+msgctxt "Admin menu option"
+msgid "Color of Texts"
+msgstr ""
+
+#: wc-settings-class.php:469
+#, php-format
+msgctxt "Admin menu label"
+msgid ""
+"The %s text %s color for your texts inside the popup, like descrptions and "
+"subtitles. Make sure you text is easy to read."
+msgstr ""
+
+#: wc-settings-class.php:477
+msgctxt "Admin menu headline"
+msgid "Branding"
+msgstr ""
+
+#: wc-settings-class.php:486
+msgctxt "Admin menu sub-headline"
+msgid "Logo"
+msgstr ""
+
+#: wc-settings-class.php:488
+#, php-format
+msgctxt "Admin menu label"
+msgid "%s Insert a %s smaller%s sized image on your popup."
+msgstr ""
+
+#: wc-settings-class.php:493
+msgctxt "Admin menu sub-headline"
+msgid "Picture"
+msgstr ""
+
+#: wc-settings-class.php:495
+#, php-format
+msgctxt "Admin menu label"
+msgid "%s Use a %s bigger %s image to catch the visitors interest."
+msgstr ""
+
+#: wc-settings-class.php:502
+msgctxt "Admin menu headline"
+msgid "Navigation"
+msgstr ""
+
+#: wc-settings-class.php:510
+msgctxt "admin menu description for the terms and conditions"
+msgid "Activate a back-button."
+msgstr ""
+
+#: wc-settings-class.php:511
+msgctxt "admin menu description for the checkbox"
+msgid "Back-Button"
+msgstr ""
+
+#: wc-settings-class.php:512
+msgctxt "Admin menu description"
+msgid ""
+"Show a tiny back button on top of your popup, visitors can leave the site if "
+"desired."
+msgstr ""
+
+#: wc-settings-class.php:522
+msgctxt "admin menu description for the terms and conditions"
+msgid "Activate a lock icon."
+msgstr ""
+
+#: wc-settings-class.php:523
+msgctxt "admin menu description for the checkbox"
+msgid "Lock-Icon"
+msgstr ""
+
+#: wc-settings-class.php:524
+msgctxt "Admin menu description"
+msgid "Show a tiny lock icon on top of your popup."
+msgstr ""
+
+#: wc-settings-class.php:534
+msgctxt "Admin menu label"
+msgid "Position of your lock icon."
+msgstr ""
+
+#: wc-settings-class.php:549
+msgctxt "Admin menu headline"
+msgid "Function"
+msgstr ""
+
+#: wc-settings-class.php:557
+msgid "Minimum age"
+msgstr ""
+
+#: wc-settings-class.php:559
+#, php-format
+msgctxt "Admin menu label"
+msgid "%s The %s minimum age %s for a user to pass the verification."
+msgstr ""
+
+#: wc-settings-class.php:564
+msgid "Remember visitor"
+msgstr ""
+
+#: wc-settings-class.php:566
+#, php-format
+msgctxt "Admin menu label"
+msgid ""
+"%s The %s cooldown %s for the verification to remember the user, in days."
+msgstr ""
+
+#: wc-settings-class.php:574
+msgctxt "Admin menu headline"
+msgid "Placement"
+msgstr ""
+
+#: wc-settings-class.php:586
+msgctxt "admin menu description for the post multiselect"
+msgid ""
+"You can select WooCommerce products to restrict with a verification.\n"
+"                        you should select every product you want to lock out "
+"for specific user groups. \n"
+"                        If your age restricted products belongs to a "
+"category, use the category selector."
+msgstr ""
+
+#: wc-settings-class.php:600
+msgctxt "admin menu description for the category multiselect"
+msgid ""
+"The categories will appear if you click on products from your admin side "
+"menu,\n"
+"                        you should select every category you want to lock "
+"out for specific user groups."
+msgstr ""
+
+#: wc-settings-class.php:613
+msgctxt "admin menu description for the post multiselect"
+msgid ""
+"You can select typical WordPress posts to restrict with a verification.\n"
+"                        you should select every post you want to lock out "
+"for specific user groups."
+msgstr ""
+
+#: wc-settings-class.php:626
+msgctxt "admin menu description for the post multiselect"
+msgid ""
+"You can select typical WordPress pages to restrict with a verification.\n"
+"                        you should select every page you want to lock out "
+"for specific user groups."
+msgstr ""
+
+#. Name of the plugin
+msgid "Age Verification System for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Restrict WooCommerce products for a certain age group using a beautiful and "
+"small popup window, after completing the setup and selecting your categories,"
+" visitors need to type in their date of birth in a compact popup window, if "
+"they pass, we store a browser-cookie to remember it next time. You will be "
+"able to control the product access for certain age groups precisely. Control "
+"everything with our highly customizable, easy and advanced admin backend."
+msgstr ""
+
+#. Author of the plugin
+msgid "AWEOS GmbH"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://aweos.de"
+msgstr ""
